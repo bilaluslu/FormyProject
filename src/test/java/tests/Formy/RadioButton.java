@@ -27,7 +27,7 @@ public class RadioButton {
         Driver.get().get(formyHomePage.url);
 
         clickOnTheDesiredLink1("Radio Button");
-
+// verification
         Assert.assertEquals(Driver.get().getCurrentUrl() , "http://formy-project.herokuapp.com/radiobutton");
 
         Driver.get().close();
