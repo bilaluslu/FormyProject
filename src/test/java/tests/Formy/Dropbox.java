@@ -27,7 +27,7 @@ public class Dropbox {
         FormyHomePage formyHomePage = new FormyHomePage();
         Driver.get().get(formyHomePage.url);
 
-        clickOnTheDesiredLink1("Dropbox");
+        clickOnTheDesiredLink1("Dropdown");
 
         Assert.assertEquals(Driver.get().getCurrentUrl().contains("dropdown"),true);
 
