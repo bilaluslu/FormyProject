@@ -100,7 +100,7 @@ public class PracticeIterations {
         Driver.get().get(formyHomePage.url);
         // converting map to the list
         List<String> names = new ArrayList<>(linksWithMap().values());
-        System.out.println(names);
+        System.out.println(names); // prints names
 
         List<WebElement> listOfLinks = formyHomePage.links;
         for ( WebElement each : listOfLinks ) {
